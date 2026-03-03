@@ -149,10 +149,10 @@
                     </div>
                 </div>
                 <div>
-                    <a href="{{ route('schools.index') }}" class="btn btn-light btn-sm mr-2">
+                    <a href="{{ route('schools.index') }}" class="btn btn-light text-dark btn-sm mr-2">
                         <i class="fas fa-school mr-1"></i> {{ __('Manage Schools') }}
                     </a>
-                    <a href="{{ route('branches.index') }}" class="btn btn-light btn-sm mr-2">
+                    <a href="{{ route('branches.index') }}" class="btn btn-light text-dark btn-sm mr-2">
                         <i class="fas fa-code-branch mr-1"></i> {{ __('Manage Branches') }}
                     </a>
                     <a href="{{ route('admin.api-docs') }}" class="btn btn-success btn-sm">

@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
 
                     if ($settings->school_name) {
                         \Illuminate\Support\Facades\Config::set('adminlte.title', $settings->school_name);
-                        \Illuminate\Support\Facades\Config::set('adminlte.logo', '<b>' . substr($settings->school_name, 0, 16) . '</b>');
+                        \Illuminate\Support\Facades\Config::set('adminlte.logo', '<b>' . substr($settings->school_name, 0, 13) . '</b>');
                     }
                     if ($settings->logo) {
                         // Use asset() with storage prefix to ensure compatibility
