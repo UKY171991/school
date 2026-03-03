@@ -327,6 +327,23 @@ return [
                 ],
             ],
         ],
+        [
+            'text'    => 'ACCOUNT SETTINGS',
+            'icon'    => 'fas fa-fw fa-user-cog',
+            'topnav_right' => true,
+            'submenu' => [
+                [
+                    'text' => 'profile',
+                    'url'  => 'admin/settings/profile',
+                    'icon' => 'fas fa-fw fa-user',
+                ],
+                [
+                    'text' => 'change_password',
+                    'url'  => 'admin/settings/password',
+                    'icon' => 'fas fa-fw fa-lock',
+                ],
+            ],
+        ],
 
         // Sidebar items:
         [
@@ -614,17 +631,7 @@ return [
             'url'  => 'admin/general-settings',
             'icon' => 'fas fa-fw fa-cogs',
         ],
-        ['header' => 'ACCOUNT SETTINGS'],
-        [
-            'text' => 'profile',
-            'url'  => 'admin/settings/profile',
-            'icon' => 'fas fa-fw fa-user',
-        ],
-        [
-            'text' => 'change_password',
-            'url'  => 'admin/settings/password',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
+
     ],
 
     /*
